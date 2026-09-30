@@ -23,4 +23,5 @@ python3 random_rules.py       # Step 3: Creates N firewall rules referencing Ste
 python3 gen_ip_dnat_v2.py     # Step 4: Creates N dst_ and N trans_ IP objects for NAT
 python3 gen_rules_dnat_v2.py  # Step 5: Creates N DNAT rules mapping dst_ -> trans_
 python3 delete_pre_acl.py     # Deletes all ACL rules in pre section
+python3 delete_pre_nat.py     # Deletes all nat rules in pre section
 ```
